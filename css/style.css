@@ -3,7 +3,7 @@
 body {
   background-color: #FFF;
   color: #0000FF;
-  font-size: 14px; /* 1 em = 16px*/
+  font-size: 16px; /* 1 em = 16px*/
   line-height: 2;
 }
 /* nav on upper right of page */
@@ -63,6 +63,13 @@ article {
   width: 50%;
 }
 
+.header h1, h3, p {
+  width: 75%;
+}
+
+.story-text {
+  width: 75%;
+}
 a:link {
   text-decoration: none;
 }
